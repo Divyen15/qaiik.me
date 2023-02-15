@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-  font-size: 100px;
+  font-size: 5vw;
   margin: 10px;
   font-family: "Creepster", cursive;
   color: black;
@@ -24,7 +24,7 @@ h1 {
 }
 
 h3 {
-  font-size: 50px;
+  font-size: 3vw;
   margin: 10px;
   font-family: "Titan One", cursive;
   color: #141414;
@@ -38,8 +38,10 @@ h3 {
   animation: animate 1s linear infinite;
   filter: drop-shadow(0px 0px 10px #000);
   position: absolute;
-  width: 2.5%;
+  width: 5%;
   top: 25%;
+  left: 48vw;
+  top: 12vw;
 }
 
 @keyframes animate {
@@ -52,4 +54,114 @@ h3 {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.dox {
+  font-size: 2vw;
+  margin: 0.1px;
+  font-family: "Titan One", cursive;
+  color: black;
+  -webkit-text-stroke: 1px #fff;
+  -webkit-text-stroke-color: red;
+  -webkit-text-stroke-width: 1px;
+  text-shadow: 0 0 40px #ff0000, rgb(82, 2, 2) 0 0 70px #ff0000,
+    0 0 80px #ff0000, 0 0 100px #ff0000, 0 0 150px #ff0000;
+}
+
+#doxheader {
+  font-size: 3vw;
+  margin: 0.1px;
+  font-family: "Titan One", cursive;
+  background-image: url("/img/rainbow.gif");
+  background-clip: text;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color:#ff0000;
+}
+
+#red {
+  color: red;
+  font-size: 2vw;
+  margin: 0.1px;
+  font-family: "Titan One", cursive;
+  color: black;
+  -webkit-text-stroke: 1px #fff;
+  -webkit-text-stroke-color: red;
+  -webkit-text-stroke-width: 1px;
+  text-shadow: 0 0 40px #ff0000, rgb(82, 2, 2) 0 0 70px #ff0000,
+    0 0 80px #ff0000, 0 0 100px #ff0000, 0 0 150px #ff0000;
+}
+
+#orange {
+  color: orange;
+  font-size: 2vw;
+  margin: 0.1px;
+  font-family: "Titan One", cursive;
+  color: black;
+  -webkit-text-stroke: 1px #fff;
+  -webkit-text-stroke-color: orange;
+  -webkit-text-stroke-width: 1px;
+  text-shadow: 0 0 40px orange, rgb(110, 64, 2) 0 0 70px orange, 0 0 80px orange,
+    0 0 100px orange, 0 0 150px orange;
+}
+
+#yellow {
+  color: yellow;
+  font-size: 2vw;
+  margin: 0.1px;
+  font-family: "Titan One", cursive;
+  color: black;
+  -webkit-text-stroke: 1px #fff;
+  -webkit-text-stroke-color: yellow;
+  -webkit-text-stroke-width: 1px;
+  text-shadow: 0 0 40px yellow, rgb(94, 110, 2) 0 0 70px yellow, 0 0 80px yellow,
+    0 0 100px yellow, 0 0 150px yellow;
+}
+
+#green {
+  color: green;
+  font-size: 2vw;
+  margin: 0.1px;
+  font-family: "Titan One", cursive;
+  color: black;
+  -webkit-text-stroke: 1px #fff;
+  -webkit-text-stroke-color: green;
+  -webkit-text-stroke-width: 1px;
+  text-shadow: 0 0 40px green, rgb(2, 110, 2) 0 0 70px green, 0 0 80px green,
+    0 0 100px green, 0 0 150px green;
+}
+
+#blue {
+  color: blue;
+  font-size: 2vw;
+  margin: 0.1px;
+  font-family: "Titan One", cursive;
+  color: black;
+  -webkit-text-stroke: 1px #fff;
+  -webkit-text-stroke-color: blue;
+  -webkit-text-stroke-width: 1px;
+  text-shadow: 0 0 40px blue, rgb(2, 2, 110) 0 0 70px blue, 0 0 80px blue,
+    0 0 100px blue, 0 0 150px blue;
+}
+
+#purple {
+  color: purple;
+  font-size: 2vw;
+  margin: 0.1px;
+  font-family: "Titan One", cursive;
+  color: black;
+  -webkit-text-stroke: 1px #fff;
+  -webkit-text-stroke-color: purple;
+  -webkit-text-stroke-width: 1px;
+  text-shadow: 0 0 40px purple, rgb(110, 2, 110) 0 0 70px purple,
+    0 0 80px purple, 0 0 100px purple, 0 0 150px purple;
+}
+
+#rainbow {
+  background-image: url("/img/rainbow.gif");
+  background-clip: text;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
