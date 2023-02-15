@@ -1,1 +1,0 @@
-qaiik is nigger
